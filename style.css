@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, rgb(142, 167, 52), rgb(104, 180, 104), rgb(118, 190, 148));
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.container{
+    max-width: 500px;
+    max-height: 500px;
+    margin-top: 200px;
+    padding: 20px;
+    background: white;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 5);
+}
+
+input{
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+button{
+    background: blue;
+    color: white;
+    
+}
